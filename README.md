@@ -1,3 +1,14 @@
+ASSEMBLER KODUNUN ÇALIŞTIRILMASI 
+1- Python resmi sitesine (https://www.python.org) gidin.
+2-"Downloads" sekmesine tıklayın ve işletim sisteminize uygun Python sürümünü seçin. 
+3-İndirilen yükleyiciyi çalıştırın ve kurulum talimatlarını takip edin. 
+Kodumuzu çalıştırabilmemiz için bir metin editörü kullanrak kaynak kod dosyasını (input.txt) hazırlanması gerekir.
+Ayrıca projede bulunan python kodunu '.py'uzantılı bir dosya olarak oluşturmanız gerekir. ( örnk : pass1.py) 
+
+[file_name = 'input.txt'
+# Kaynak kod satırlarını dosyadan okur
+source_lines = read_source_file(file_name) ] kodumuzdaki bu kod blogu ise kaynak kod dosyasını okuyacak ve sembol tablosu ile bazı temel assembler çıktılarını üretecektir.
+
 PROJEYE GENEL BAKIŞ 
 Bu proje, belirli bir assembly dilini makine koduna dönüştüren bir derleyicidir. Düşük seviyeli programlamanın anlaşılmasını ve uygulanmasını amaçlar. Derleyici, kaynak kodunu işler, semboller ve adresler üzerinde çözümlemeler yaparak çoklu geçişlerde işlem yapar ve sonunda yürütülebilir makine kodu üretir.
 
